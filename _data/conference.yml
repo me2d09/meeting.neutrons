@@ -27,12 +27,12 @@ slideshow:
     photographer_name: ""
     photographer_link: ""
     active: True
+#  - id: 1
+#    image_path: ./assets/images/slideshow/2-impact.jpg  
+#    description: Charles University
+#    photographer_name: ""
+#    photographer_link: ""
   - id: 1
-    image_path: ./assets/images/slideshow/2-impact.jpg  
-    description: Charles University
-    photographer_name: ""
-    photographer_link: ""
-  - id: 2
     image_path: ./assets/images/slideshow/3-charlesbridge.jpg
     description: Prague
     photographer_name: "Jorge Royan (CC BY-SA 3.0)"
@@ -55,7 +55,7 @@ navbar:
 #    path: /submission.html
 #    visible: False
   - id: 2
-    label: Programs
+    label: Program
     path: /program.html
     visible: True
   - id: 3
@@ -72,7 +72,7 @@ deadlines:
     # timezone: AoE
     text: Registration deadline
     pass_due: False
-  - date: 2023-02-01
+  - date: 2024-02-01
     text: Meeting
     pass_due: False
   #- date: 2023-01-08

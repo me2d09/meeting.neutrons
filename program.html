@@ -67,11 +67,18 @@ slide_id: 0
                 <tbody>
                     {% for event in timeslot.events %}
                     <tr>
-                        <td width="20%">
+                        <td width="20%" class="text-center">
+                            {% if event.slot %}
+                            <p>{{event.slot}}</p>
+                            {% endif %}
                         </td>
                         <td>
-                            <p><b>{{event.title}}</b></p>
-                            <p><i>{{event.speakers}}</i></p>
+                            <p class="mb-0">
+                                <b>{{event.title}}</b><br>  
+                                <i>{{event.speakers}}{% if event.affiliation %}<br>                            
+                                {{event.affiliation}}
+                                {% endif %}</i>
+                            </p>
                         </td>
                     </tr>
                     {% endfor %}

@@ -2,17 +2,25 @@
   column: 1
   members:
   - name: Milan Klicpera
-    org: Charles University, Faculty of Mathematics and Physics
+    org: |
+      Charles University  
+      Faculty of Mathematics and Physics
     homepage: "https://kfkl.mff.cuni.cz/en/people/klicpera"
   - name: Jan Šaroun
-    org: The Czech Academy of Sciences, Nuclear Physics Institute
+    org: |
+      The Czech Academy of Sciences  
+      Nuclear Physics Institute
     homepage: "mailto:saroun@ujf.cas.cz"
   - name: Pavel Strunz
-    org: The Czech Academy of Sciences, Nuclear Physics Institute
+    org: |
+      The Czech Academy of Sciences  
+      Nuclear Physics Institute
     homepage: "mailto:strunz@ujf.cas.cz"
 - title: Webmaster
   column: 2
   members:
   - name: Petr Čermák
-    org: Charles University, Prague, CZ
+    org: |
+      Charles University  
+      Faculty of Mathematics and Physics
     homepage: "https://cermak.science/"
