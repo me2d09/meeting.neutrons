@@ -1,0 +1,105 @@
+full_name: Czech Neutron Community Meeting 2024
+short_name: CNCM
+description: > 
+  The Czech neutron community meeting continues the series of annual meetings 
+  of Czech neutron users started in 2016 and informal meetings of neutron users
+  NeutronBeer, which were interrupted by the covid-19 pandemic.
+email: milan.klicpera@matfyz.cuni.cz
+
+tech: Petr Čermák
+techemail: petr.cermak@matfyz.cuni.cz
+
+iteration: 1st
+full_title: Czech Neutron Community Meeting 2024
+short_title: CNCM 2024
+
+year: 2024
+date: February 1st, 2024
+
+location: Charles University, Prague
+country: Czechia
+
+logo_path: "" #"./assets/images/logo.svg"
+slideshow:
+  - id: 0
+    image_path: ./assets/images/slideshow/1-cuni.jpg  
+    description: Venue
+    photographer_name: ""
+    photographer_link: ""
+    active: True
+  - id: 1
+    image_path: ./assets/images/slideshow/2-impact.jpg  
+    description: Charles University
+    photographer_name: ""
+    photographer_link: ""
+  - id: 2
+    image_path: ./assets/images/slideshow/3-charlesbridge.jpg
+    description: Prague
+    photographer_name: "Jorge Royan (CC BY-SA 3.0)"
+    photographer_link: "http://www.royan.com.ar/"
+navbar:
+  - id: 0
+    label: Home
+    path: /
+    visible: True
+  - id: 1
+    label: Organization
+    path: /organization.html
+    visible: True
+#  - id: 2
+#    label: Call for Papers
+#    path: /cfp.html
+#    visible: False
+#  - id: 3
+#    label: Submission
+#    path: /submission.html
+#    visible: False
+  - id: 2
+    label: Programs
+    path: /program.html
+    visible: True
+  - id: 3
+    label: Venue
+    path: /venue.html
+    visible: True
+  - id: 4
+    label: Registration
+    path: /registration.html
+    visible: True
+deadline_timezone: CET
+deadlines:
+  - date: 2024-01-10
+    # timezone: AoE
+    text: Registration deadline
+    pass_due: False
+  - date: 2023-02-01
+    text: Meeting
+    pass_due: False
+  #- date: 2023-01-08
+  #  text: Camera-ready due
+  #  pass_due: False
+#sponsors:
+#  - name: MLZ Garching, Quantum phenomena group
+#    logo_path: ./assets/images/sponsors/mlz.png
+# social_media:
+#   facebook_link:
+#   twitter_link:
+# previous_iterations:
+#   - name: 6th ISCLS
+#     year: 2019
+#     url: https://iscls.github.io/iscls2019/
+#   - name: 5th ISCLS
+#     year: 2013
+#     url: https://sites.google.com/site/5isclc2013/Home
+#   - name: 4th ISCLS
+#     year: 2010
+#     url: http://sanskrit.jnu.ac.in/conf/4iscls/index.jsp
+#   - name: 3rd ISCLS
+#     year: 2009
+#     url: https://sanskrit.inria.fr/Symposium/Symposium3.html
+#   - name: 2nd ISCLS
+#     year: 2008
+#     url: https://sanskritlibrary.org/symposium2/home.html
+#   - name: 1st ISCLS
+#     year: 2007
+#     url: https://sanskrit.inria.fr/Symposium/

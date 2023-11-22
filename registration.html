@@ -1,0 +1,26 @@
+---
+title: Registration
+layout: page
+slide_id: 1
+---
+
+<div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-3 mb-xs-2 mb-sm-2">
+    <div class="col text-justify conference-text">
+        <div>
+            <h5>Registration</h5>
+            {% if site.data.registration.about %}
+            <p>
+                {{site.data.registration.about | markdownify }}
+            </p>
+            {% endif %}
+            {% if site.data.registration.url %}
+            <p>
+                <a href="{{site.data.registration.url}}" class="button">
+                    Registration form
+                </a>
+            </p>
+            {% endif %}
+            {% include contact-technical.html %}
+        </div>
+    </div>
+</div>
