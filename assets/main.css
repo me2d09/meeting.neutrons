@@ -146,3 +146,11 @@ body {
 .navbar-dark .navbar-nav>.active {
     color: #5393c5 !important;
 }
+
+.bg-header {
+    background-color: #918FBF;
+}
+
+.bg-header-alt {
+    background-color: #B7C8D7;
+}

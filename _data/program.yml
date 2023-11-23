@@ -19,13 +19,10 @@ schedule:
      title: "Arrival of participants, coffee"
      type: "service"
    - startTime: "9:00"
-     endTime: "9:15"
-     title: "Welcome session"
+     endTime: "9:10"
+     title: "Welcome note, organization details"
      type: "presentation"
-     events:
-       - title: "Welcome note, organization details"
-         speakers: "Milan Klicpera"
-   - startTime: "9:15"
+   - startTime: "9:10"
      endTime: "10:35"
      title: "Session A"
      subtitle: "Neutron facilities & memberships"
@@ -38,14 +35,14 @@ schedule:
          speakers: "Jan Šaroun"
          affiliation: The Czech Academy of Sciences, Nuclear Physics Institute
          slot: 9:25 - 9:40
-       - title: "NPI Řež – facility overview"
+       - title: "NPI Řež - facility overview"
          speakers: "P. Strunz"
          affiliation: The Czech Academy of Sciences, Nuclear Physics Institute
          slot: 9:40 - 9:55
        - title: "Capabilities of neutron applications at the VR-1 NUCLEAR EXPERIMENTAL HUB for (inter)national research communities"
          speakers: "L. Sklenka / M. Stefanik"
          affiliation: Czech Technical University in Prague, Faculty of Nuclear Sciences and Physical Engineering
-         slot: 9:40 - 9:55
+         slot: 9:55 - 10:10
        - title: "Institute Laue-Langevin - membership of Czech Republic & outlook"
          speakers: "Milan Klicpera"
          affiliation: Charles University, Faculty of Mathematics and Physics
@@ -55,25 +52,25 @@ schedule:
          affiliation: European Spallation Source, Lund, Sweden
          slot: 10:20 - 10:35  
    - startTime: "10:35"
-     endTime: "11:00"
+     endTime: "11:10"
      title: "Coffee break"
      type: "service"
-   - startTime: "11:00"
-     endTime: "11:50"
+   - startTime: "11:10"
+     endTime: "11:45"
      title: "Session B"
      subtitle: "Analytical methods"
      type: "presentation"
      events:
-       - title: "Investigation of solid-state lithium ion batteries using thermal neutron depth profiling in NPI"
+       - title: "Investigation of solid-state lithium ion batteries using thermal neutron depth profiling in Nuclear Physics Institute"
          speakers: "G. Ceccio"
          affiliation: The Czech Academy of Sciences, Nuclear Physics Institute
          slot: 11:10 - 11:30
        - title: "t.b.a."
          speakers: "J. Matoušková / L. Sklenka"
          affiliation: "Czech Technical University in Prague, Faculty of Nuclear Sciences and Physical Engineering"
-         slot: 11:30 – 11:45
-   - startTime: "11:50"
-     endTime: "12:40"
+         slot: 11:30 - 11:45
+   - startTime: "11:45"
+     endTime: "12:35"
      title: "Session C"
      subtitle: "Large-scale structures"
      type: "presentation"
@@ -81,21 +78,21 @@ schedule:
        - title: "t.b.a."
          speakers: "M. Wimmerová"
          affiliation: "Masaryk University, Faculty of Science; CEITEC"
-         slot: 11:45 – 12:05
+         slot: 11:45 - 12:05
        - title: "Chemical and Magnetic Distribution by SANSPOL"
          speakers: "D. Zákutná"
          affiliation: "Charles University, Faculty of Science"
-         slot: 12:05 – 12:20
+         slot: 12:05 - 12:20
        - title: "Self-assembly of block copolymers studied by neutron scattering"
          speakers: "M. Štepánek"
          affiliation: "Charles University, Faculty of Science"
-         slot: 12:20 – 12:35
-   - startTime: "12:40"
-     endTime: "13:20"
+         slot: 12:20 - 12:35
+   - startTime: "12:35"
+     endTime: "13:30"
      title: "Buffet lunch"
      type: "service"
-   - startTime: "13:20"
-     endTime: "14:10"
+   - startTime: "13:30"
+     endTime: "15:05"
      title: "Session D"
      subtitle: "Crystal structures & Material research"
      type: "presentation"
@@ -103,27 +100,27 @@ schedule:
        - title: "A multiple-approach study of deformation mechanisms in magnesium alloys"
          speakers: "M. Máthis"
          affiliation: "Charles University, Faculty of Mathematics and Physics"
-         slot: 13:30 – 13:50
+         slot: 13:30 - 13:50
        - title: "Hidden Patterns: Uncovering Modulated Martensites in Ni-Mn-Ga"
          speakers: "P. Veřtát"
          affiliation: "Institute of Physics of the Czech Academy of Sciences"
-         slot: 13:50 – 14:05
+         slot: 13:50 - 14:05
        - title: "Study of preferred orientation of rocks, metals and shells in the Laboratory of Neutron Diffraction of the Department of Solid State Engineering FNSPE CTU"
          speakers: "M. Kučeráková"
          affiliation: "Czech Technical University in Prague, Faculty of Nuclear Sciences and Physical Engineering"
-         slot: 14:05 – 14:20
+         slot: 14:05 - 14:20
        - title: "Study of residual stress in THA after thermomechanical processing"
          speakers: "R. Kocich"
          affiliation: "Brno University of Technology, Faculty of Mechanical Engineering"
-         slot: 14:20 – 14:35
+         slot: 14:20 - 14:35
        - title: "Utilization of Neutron Scattering in Powder Metallurgy Research at UCT Prague"
          speakers: "A. Michalcová"
          affiliation: "University of Chemistry and Technology Prague"
-         slot: 14:35 – 14:50
+         slot: 14:35 - 14:50
        - title: "In-situ x-ray and neutron diffraction investigation of deformation mechanisms in shape memory alloys"
          speakers: "P. Šittner"
          affiliation: "Institute of Physics of the Czech Academy of Sciences"
-         slot: 14:50 – 15:05
+         slot: 14:50 - 15:05
    - startTime: "15:05"
      endTime: "15:40"
      title: "Coffee break"
@@ -137,21 +134,21 @@ schedule:
        - title: "Unique probe to quantum magnetism: from statics to dynamics"
          speakers: "P. Čermák"
          affiliation: "Charles University, Faculty of Mathematics and Physics"
-         slot: 15:40 – 16:00
+         slot: 15:40 - 16:00
        - title: "Magnetic structures of Dy2Co3Al9 solved by JANA2020"
          speakers: "M. Henriques"
          affiliation: "Institute of Physics of the Czech Academy of Sciences"
-         slot: 16:00 – 16:15
+         slot: 16:00 - 16:15
        - title: "Polarization fluctuations in a uniaxial relaxor Sr0.61Ba0.39Nb2O6"
          speakers: "M. Kempa"
          affiliation: "Institute of Physics of the Czech Academy of Sciences"
-         slot: 16:15 – 16:30
+         slot: 16:15 - 16:30
        - title: "High magnetic fields in neutron research"
          speakers: "K. Prokeš"
          affiliation: "Helmholz Zentrum Berlin, Berlin, Germany"
-         slot: 16:30 – 16:45
+         slot: 16:30 - 16:45
    - startTime: "16:45"
-     endTime: "18:00"
+     endTime: ""
      title: "Closing session"
      type: "presentation"
      events:

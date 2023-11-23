@@ -40,15 +40,15 @@ slide_id: 0
                 {% for timeslot in day.timeslots %}
                 <thead>
                     <tr>
-                        <th class="bg-info text-center">
+                        <th class="bg-header{% if timeslot.type == "service" %}-alt{% endif %} text-center align-top">
                             <div>{{timeslot.startTime}}-{{timeslot.endTime}}</div>
                         </th>
                         {% if timeslot.type == "service" %}
-                        <th class="bg-warning text-center">
+                        <th class="bg-header-alt text-center">
                             <p class="text-muted">{{timeslot.title}}</p>
                         </th>
                         {% else %}
-                        <th class="bg-primary text-center">
+                        <th class="bg-header text-center">
                             <h5>{{timeslot.title}}</h5>
                             {% if timeslot.speaker %}
                             <h6>speaker: <i>{{timeslot.speaker}}</i></h6>
@@ -67,7 +67,7 @@ slide_id: 0
                 <tbody>
                     {% for event in timeslot.events %}
                     <tr>
-                        <td width="20%" class="text-center">
+                        <td width="20%" class="text-center align-top">
                             {% if event.slot %}
                             <p>{{event.slot}}</p>
                             {% endif %}
