@@ -107,7 +107,7 @@ schedule:
      type: "presentation"
      events:
        - title: "A multiple-approach study of deformation mechanisms in magnesium alloys"
-         speakers: "M. Máthis"
+         speakers: "K. Máthis"
          affiliation: "Charles University, Faculty of Mathematics and Physics"
          slot: 13:45 - 14:00
        - title: "Hidden Patterns: Uncovering Modulated Martensites in Ni-Mn-Ga"
